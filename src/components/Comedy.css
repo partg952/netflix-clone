@@ -1,0 +1,56 @@
+body{
+    text-align: left;
+}
+h1{
+    margin:10px; 
+}
+
+#trending{
+    display:flex;
+    overflow-x: auto;
+    width:97vw;
+    margin-left: auto;
+    margin-right:auto;
+    padding:10px;
+    
+}
+#trending__child{
+    display:inline-block;
+    height: 200px;
+    width:200px;
+    margin:5px;
+    border-radius: 6px;
+    transition:all 200ms ease-out;
+    position:relative;
+}
+
+#poster{
+    height:100%;
+    border-radius: 6px;
+}
+
+#trending::-webkit-scrollbar{ display:none;}
+
+
+
+.trending{
+    padding:10px;
+}
+#rating{
+    
+    position:absolute;
+    color:white;
+    background-color: red;
+    top: 10px;
+    right:10px;
+    height: 30px;
+    width:30px;
+    display: flex;
+    font-weight: bolder;
+    align-items: center;
+    justify-content:center;
+    border-radius:30px;
+    padding:2px;
+    border: 3px solid rgb(202, 11, 11);
+}
+
